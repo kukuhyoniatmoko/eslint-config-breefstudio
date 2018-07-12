@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-breefstudio",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "breefstudio preferred configuration",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,12 @@
     "eslint-plugin-jsx-a11y": "^6.1.0",
     "eslint-plugin-react": "^7.10.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kukuhyoniatmoko/eslint-config-breefstudio"
+  },
+  "bugs": {
+    "url": "https://github.com/kukuhyoniatmoko/eslint-config-breefstudio/issues"
+  }
 }

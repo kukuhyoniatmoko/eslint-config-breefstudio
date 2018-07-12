@@ -1,0 +1,1 @@
+Breefstudio preferred ESLint configuration.

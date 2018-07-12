@@ -1,48 +1,47 @@
 module.exports = {
-  extends: [
-    './index.js',
-  ].map(require.resolve),
+  extends: ["./index.js"].map(require.resolve),
   rules: {
-    'linebreak-style': 'off',
-    'max-len': 'off',
-    'no-param-reassign': [
-      'error',
+    "linebreak-style": "off",
+    "max-len": "off",
+    "no-param-reassign": [
+      "error",
       {
         props: true,
-        ignorePropertyModificationsFor: ['props', 'link'],
-      },
+        ignorePropertyModificationsFor: ["props", "link"]
+      }
     ],
-    'no-underscore-dangle': [
-      'error',
+    "no-underscore-dangle": [
+      "error",
       {
-        allow: ['_id'],
-      },
+        allow: ["_id"]
+      }
     ],
-    'prefer-destructuring': [
-      'error',
+    "prefer-destructuring": [
+      "error",
       {
         VariableDeclarator: {
           array: false,
-          object: true,
+          object: true
         },
         AssignmentExpression: {
           array: true,
-          object: false,
-        },
+          object: false
+        }
       },
       {
-        enforceForRenamedProperties: false,
-      },
+        enforceForRenamedProperties: false
+      }
     ],
-    'import/prefer-default-export': 'off',
-    'jsx-a11y/anchor-is-valid': 'off',
-    'react/react-in-jsx-scope': 'off',
-    'react/jsx-curly-brace-presence': 'off',
-    'react/jsx-filename-extension': [
-      'error',
+    "import/prefer-default-export": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-curly-brace-presence": "off",
+    "react/jsx-filename-extension": [
+      "error",
       {
-        extensions: ['.js'],
-      },
-    ],
-  },
+        extensions: [".js"]
+      }
+    ]
+  }
 };

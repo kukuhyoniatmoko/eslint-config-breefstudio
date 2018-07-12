@@ -1,14 +1,15 @@
 {
-  "name": "eslint-config-breefstudio",
-  "version": "0.0.1",
+  "name": "@breefstudio/eslint-config-breefstudio",
+  "version": "0.0.2",
   "description": "breefstudio preferred configuration",
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "eslint": "./node_modules/.bin/eslint ."
+    "eslint": "eslint ."
   },
   "dependencies": {
-    "eslint-config-airbnb": "^17.0.0"
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-prettier": "^2.9.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.5",
@@ -16,14 +17,26 @@
     "eslint-plugin-flowtype": "^2.50.0",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jsx-a11y": "^6.1.0",
-    "eslint-plugin-react": "^7.10.0"
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.10.0",
+    "prettier": "^1.13.7"
+  },
+  "peerDependencies": {
+    "babel-eslint": ">= 8.2.5",
+    "eslint": ">= 5.1.0",
+    "eslint-config-airbnb": ">= 17.0.0",
+    "eslint-config-prettier": ">= 2.9.0",
+    "eslint-plugin-prettier": ">= 2.6.2",
+    "prettier": ">= 1.13.7"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kukuhyoniatmoko/eslint-config-breefstudio"
+    "url": "git+https://github.com/kukuhyoniatmoko/eslint-config-breefstudio.git"
   },
   "bugs": {
     "url": "https://github.com/kukuhyoniatmoko/eslint-config-breefstudio/issues"
-  }
+  },
+  "homepage": "https://github.com/kukuhyoniatmoko/eslint-config-breefstudio#readme",
+  "author": ""
 }

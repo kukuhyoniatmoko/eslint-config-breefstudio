@@ -1,11 +1,11 @@
 module.exports = {
   extends: [
-    "plugin:flowtype/recommended",
     "airbnb",
     "plugin:prettier/recommended",
-    "prettier/flowtype",
-    "prettier/react"
+    "plugin:flowtype/recommended",
+    "prettier/react",
+    "prettier/flowtype"
   ],
-  plugins: ["react", "flowtype", "prettier"],
+  plugins: ["react", "prettier", "flowtype"],
   parser: "babel-eslint"
 };
